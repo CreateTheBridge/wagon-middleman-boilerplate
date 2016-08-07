@@ -59,12 +59,6 @@ end
 
 # TODO: Add any additional HTML pages here
 page "/index.html", proxy: "/templates/index.html"
-page "/city-commission.html", proxy: "/templates/city-commission.html"
-page "/departments.html", proxy: "/templates/departments.html"
-page "/visitor.html", proxy: "/templates/visitor.html"
-page "/contact.html", proxy: "/templates/contact.html"
-page "/community.html", proxy: "/templates/community.html"
-page "/edc-idc.html", proxy: "/templates/edc-idc.html"
 page "/sitemap.xml", layout: false
 
 sprockets.append_path 'assets/bower_components/jquery/dist'

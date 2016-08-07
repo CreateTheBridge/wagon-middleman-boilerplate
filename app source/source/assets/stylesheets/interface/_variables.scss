@@ -17,6 +17,12 @@ $orange: #f08a24;
 $maroon: #7b0046;
 $teal: #00a99d;
 $nav-gray: #747474;
+$two-gray: #222222;
+$three-gray: #333333;
+$four-gray: #444444;
+$six-gray: #666666;
+$sky: #99cfe2;
+$f-nine: #f9f9f9;
 
 
 // Backgrounds
@@ -49,11 +55,11 @@ $ms-small-0: $ms-base;
 $ms-small-down:  ms(-1);
 
 
-$font-family: "Archer SSm A", "Archer SSm B", Helvetica, Arial, sans-serif;
+$font-family: "Gotham SSm A", "Gotham SSm B", Helvetica, Arial, sans-serif;
 $font-weight: 500;
 $font-color: $medium-gray;
-$header-font-family: "jaf-facitweb", "Helvetica", Helvetica, Arial, sans-serif;
-$header-font-weight: 700;
+$header-font-family: "kepler-std", "Helvetica", Helvetica, Arial, sans-serif;
+$header-font-weight: 400;
 $header-font-color: $dark-gray;
 
 
@@ -70,7 +76,7 @@ $button-color-hover: black;
 
 
 // Links
-$link-color: $light-blue;
+$link-color: $two-gray;
 $link-color-hover: scale_color($link-color, $lightness: -20%);
 $link-color-active: $dark-blue;
 

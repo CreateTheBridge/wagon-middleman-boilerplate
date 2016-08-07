@@ -2,73 +2,139 @@
 title: Home
 description: Cooling, Crane-Lifts, and Electric services—let us help you with your next project. Visit our page.
 keywords: cooling, crane-lift, electraic services, quick cranes, general contractors
-sitename: City of Elsa
-url: http://www.cityofelsa.com
+sitename: Edinburg Neurodiagnostics Sleep Center
+url: http://www.website.com
 ---
 
 .home-container
   %header
-    #particles-js
     .header-container
-      %h1 This is Elsa.
-      %p Welcome to a city where ipsum dolor sit amet consectetur adipiscing elit.
+      %h3 EDINBURG NEURODIAGNOSTICS &amp;
+      %h1 Sleep Center
+    .header-lower-nav
+      %a{:href => "#"} OUR SERVICES
+      %a{:href => "#"} SCHEDULE APPOINTMENT
+      %a{:href => "#"} OUR PHYSICIAN
 
-  %section.see-do-container
-    %h2 See &amp; Do
-    %hr.see-do
-    .events-container.owl-carousel
-      .event-one
-        %h6 EVENTS
-        %hr
-        %h4 An Upcoming Events Title
-        %h5 This is a description of the event illustrated in this container and image.
-      .event-two
-        %h6 EVENTS
-        %hr
-        %h4 An Upcoming Events Title
-        %h5 This is a description of the event illustrated in this container and image.
-      .event-three
-        %h6 EVENTS
-        %hr
-        %h4 An Upcoming Events Title
-        %h5 This is a description of the event illustrated in this container and image.
+  %section.our-facility
+    .left-content
+      %h2 Our Facility
+      %h5 BETTER SLEEP IS OUR MISSION
+      %p The Edinburg Neurodiagnostic and Sleep Center is equipped with the latest technology, led by sleep specialists Dr. Priti Manohar, staffed by expert and experienced sleep technologists. Personnel is dedicated to providing high quality, compassionate healthcare. Our sleep facility affords an excellent setting in which to assess sleep problems and receive recommendations to improve sleep.
+      %p The facility is accredited by the American Academy of Sleep Medicine. We offer a comfortable, home-like setting where attendants work to make you feel at ease. While you sleep, our sleep technologists use advanced technology to monitor your heart rate, breathing patterns, brainwave activity and other key indicators. These procedures are safe and totally non-invasive. You can trust that you are in the hands of experts.
+      %a{:href => "#"} Meet Our Team
+      = image_tag 'American_Academy_of_Sleep_Medicine_Logo.png'
+    .right-content
+      = image_tag '#'
 
-  %section.quick-links
+  %section.our-services
+    .section-navigation
+      %ul
+        %li
+          %a{:href => "#"}
+            = image_tag 'icons/sleep-icon-default.svg'
+            %span SLEEP
+        %li
+          %a{:href => "#"}
+            = image_tag 'icons/neuro-icon-default.svg'
+            %span NEUROLOGICAL
+    %h6.title OUR SERVICES
     .left
-      %a.bills-online{:href => "#"}
-        %hr
-        %h4
-          %span Don't struggle.
-          %br
-          %span Pay your bills online.
-      %a.press{:href => "#"}
-        %hr
-        %h4 Keep up with the Press.
-        %h5 VISIT
-        .press-img
-          = image_tag 'home/press-img.png'
-
+      .content
+        = image_tag 'illustrations/airway-show.svg'
+        %h6 CPAP / BiPAP / AUTO CPAP TITRATION
+        %p A CPAP/BIPAP system treats OSA by providing low pressure airflow to your airway. The air pressure holds the airway open, preventing the collapse of the palate and tongue over the air passages. This allows for normal breathing and uninterrupted sleep.
+        %p CPAP is one continuous positive airway pressure while BIPAP consists of two pressures, one inspiratory and one expiratory. The benefit of the CPAP/BiPAP therapy are:
+        %ul
+          %li Restoration of normal sleep patterns
+          %li Greater alertness and less daytime sleepiness
+          %li Less anxiety and depression
+          %li Improvements in work productivity
+          %li Better concentration and memory
+          %li Fewer morning headaches
     .right
-      %a.calendar{:href => "#"}
-        %hr
-        %h4 View our Calendar for more upcoming events.
-        .calendar-img
-          = image_tag 'home/calendar-img.png'
+      %ul
+        %li
+          %a{:href => '#'}
+            = image_tag 'illustrations/home-sleep-small.svg'
+            .title
+              %h6 HST
+              %h4 Home Sleep Study
+        %li
+          %a{:href => '#'}
+            = image_tag 'illustrations/Polysomnograms-small.svg'
+            .title
+              %h6 PSG
+              %h4 Polysomnograms
+        %li
+          %a{:href => '#'}
+            = image_tag 'illustrations/airway-small.svg'
+            .title
+              %h6 CPAP / BiPAP / AUTO CPAP
+              %h4 Airway Pressure Titration
+        %li
+          %a{:href => '#'}
+            = image_tag 'illustrations/sleep-latency-small.svg'
+            .title
+              %h6 MSLT
+              %h4 Multiple Sleep Latency Test
 
-      %a.report-crime{:href => "#"}
-        %hr
-        %h4
-          %span On the watch?
-          %br
-          %span Report a crime.
+  %section.sleep-treatments
+    .left-content
+      %h6 SLEEP TREATMENTS
+    .right-content
+      %ul
+        %li
+          %a{:href => '#'}
+            %h3 Snoring and Sleep Apnea
+            %hr
+            %p One of the most common sleep disorders with the highest...
+        %li
+          %a{:href => '#'}
+            %h3 Insomnia
+            %hr
+            %p Is the inability to fall asleep. It may be caused by poor...
+        %li
+          %a{:href => '#'}
+            %h3 Hypersomnia
+            %hr
+            %p Is a condition in which a person has trouble staying awake...
+        %li
+          %a{:href => '#'}
+            %h3 Sleep Deprivation
+            %hr
+            %p Is when one does not get enough sleep at night...
+        %li
+          %a{:href => '#'}
+            %h3 Narcolepsy
+            %hr
+            %p Is a neurologiacal disorder associated with severe...
+        %li
+          %a{:href => '#'}
+            %h3 Restless Leg Syndrome
+            %hr
+            %p Manifests itself in sleep in periodic leg movement...
 
-  %section.visit-us
-    %h2 Visit Us
-    %hr.visit-us
-    #google-map
-      .map
-
-  %section.be-social
-    %h2 Be Social
-    %hr.be-social
-    .facebook
+  %section.our-team
+    %h2 OUR TEAM
+    .left-content
+      = image_tag ''
+      %h4 Dr. Priti M. Manohar, MD
+      %p Dr. Priti Manohar is a neurologist in Edinburg, Texas and is affiliated with Doctors Hospital at Renaissance. She received her medical degree from Seth G.S. Medical College and has been in practice for more than 20 years. She is one of 9 doctors at Doctors Hospital at renaissance who specialize in Neurology.
+      %a.button{:hef => '#'} VIEW RESUME
+    .right-content
+      %h2 Meet Our Team
+      %p We are a group of pssionate lorem ipsum dolor sit amet, consectetur dipisicing elit, sed do eiusmod tempor incididunt.
+      %ul
+        %li
+          %a{:href => '#'}
+            %h4 Dr. Priti M. Manohar, MD
+        %li
+          %a{:href => '#'}
+            %h4 Dr. Priti M. Manohar, MD
+        %li
+          %a{:href => '#'}
+            %h4 Dr. Priti M. Manohar, MD
+        %li
+          %a{:href => '#'}
+            %h4 Dr. Priti M. Manohar, MD
